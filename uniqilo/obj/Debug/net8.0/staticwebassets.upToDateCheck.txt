@@ -2103,4 +2103,4 @@ wwwroot\assets\js\vendor\jquery-migrate-3.3.2.min.js
 wwwroot\assets\js\vendor\modernizr-3.11.2.min.js
 wwwroot\assets\js\waypoints.min.js
 wwwroot\assets\style.css
-wwwroot\imgs\sliders\yxceoc2k.bl0.webp
+wwwroot\imgs\sliders\m2f0qmmt.52g.png

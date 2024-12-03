@@ -37890,23 +37890,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\style.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\yxceoc2k.bl0.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\m2f0qmmt.52g.png'))">
       <SourceType>Package</SourceType>
       <SourceId>uniqilo</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/uniqilo</BasePath>
-      <RelativePath>imgs/sliders/yxceoc2k.bl0.webp</RelativePath>
+      <RelativePath>imgs/sliders/m2f0qmmt.52g.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hhcjpabhhr</Fingerprint>
-      <Integrity>Cykytf+W0HTuJcuCvJkslpnTscgeXy29CvAb8WRGMDU=</Integrity>
+      <Fingerprint>h1437a6cft</Fingerprint>
+      <Integrity>y5knwUPJgUGS3CPW05HRa84Vw1bseVHmNdW5a/EDyfo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\yxceoc2k.bl0.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\m2f0qmmt.52g.png'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using uniqilo.DataAcces;
+using uniqilo.Models;
 
 namespace uniqilo
 {
@@ -12,11 +14,26 @@ namespace uniqilo
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL"));
             });
+            builder.Services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 3;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireDigit = false;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireUppercase = false;
+                opt.Lockout.MaxFailedAccessAttempts = 1;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
+
             builder.Services.AddControllersWithViews();
             var app = builder.Build();
             app.UseStaticFiles();
 
-           app.MapControllerRoute(
+            app.UseStaticFiles();
+            app.MapControllerRoute(name: "register", pattern: "register", defaults: new { controller = "Account", action = "Register" });
+
+
+            app.MapControllerRoute(
             name: "areas",
             pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
           );

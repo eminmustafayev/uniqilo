@@ -25260,17 +25260,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6BJ/vGINFFN0DLu/MiKr67I9X\u002Bf7\u002B3wlzrTpe5fC\u002B6U="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"87216"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226BJ/vGINFFN0DLu/MiKr67I9X\u002Bf7\u002B3wlzrTpe5fC\u002B6U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Dec 2024 19:37:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/uniqilo/imgs/sliders/yxceoc2k.bl0.hhcjpabhhr.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\yxceoc2k.bl0.webp'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/uniqilo/imgs/sliders/m2f0qmmt.52g.h1437a6cft.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\m2f0qmmt.52g.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hhcjpabhhr"},{"Name":"integrity","Value":"sha256-Cykytf\u002BW0HTuJcuCvJkslpnTscgeXy29CvAb8WRGMDU="},{"Name":"label","Value":"_content/uniqilo/imgs/sliders/yxceoc2k.bl0.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"335930"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Cykytf\u002BW0HTuJcuCvJkslpnTscgeXy29CvAb8WRGMDU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Dec 2024 07:16:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h1437a6cft"},{"Name":"integrity","Value":"sha256-y5knwUPJgUGS3CPW05HRa84Vw1bseVHmNdW5a/EDyfo="},{"Name":"label","Value":"_content/uniqilo/imgs/sliders/m2f0qmmt.52g.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"614864"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022y5knwUPJgUGS3CPW05HRa84Vw1bseVHmNdW5a/EDyfo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Dec 2024 14:03:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/uniqilo/imgs/sliders/yxceoc2k.bl0.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\yxceoc2k.bl0.webp'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/uniqilo/imgs/sliders/m2f0qmmt.52g.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgs\sliders\m2f0qmmt.52g.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Cykytf\u002BW0HTuJcuCvJkslpnTscgeXy29CvAb8WRGMDU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"335930"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Cykytf\u002BW0HTuJcuCvJkslpnTscgeXy29CvAb8WRGMDU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Dec 2024 07:16:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y5knwUPJgUGS3CPW05HRa84Vw1bseVHmNdW5a/EDyfo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"614864"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022y5knwUPJgUGS3CPW05HRa84Vw1bseVHmNdW5a/EDyfo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Dec 2024 14:03:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
